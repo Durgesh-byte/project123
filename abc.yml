@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Build Docker Image
+      command: docker build -t image:latest .
+
